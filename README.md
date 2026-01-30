@@ -25,6 +25,8 @@ Incoming CRM data often contains:
 - Cleaned dataset
 - SQL queries for validation
 - Documented data quality rules
+- Generated a cleaned CRM dataset by enforcing required-field rules, validating email formats, standardizing text fields, and removing duplicate records.
+- Reduced raw dataset from 5,000 records to 3762 validated, ingestion-ready leads.
 
 ## Tools Used
 - SQL
