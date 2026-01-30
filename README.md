@@ -32,3 +32,17 @@ Incoming CRM data often contains:
 ## Tools Used
 - SQL
 - Excel / Google Sheets
+
+## Data Quality Impact
+
+| Metric                        | Before Cleaning | After Cleaning |
+|-------------------------------|-----------------|----------------|
+| Total lead records            |      5,000      |      3762      |
+| Leads with valid email        |      4,598      |      3762      |
+| Leads with company populated  |      5,000      |      3762      |
+| Leads with valid lead source  |      5,000      |      3762      |
+| Duplicate emails              |      18         |        0       |
+| Leads with valid phone number |      4,104      |      3762      |
+
+### Summary
+By enforcing data quality rules and removing invalid or duplicate records, the dataset was reduced from 5,000 raw leads to 3762 ingestion-ready records. This process eliminated 18 duplicate entries and ensured 100% compliance with required field and lead source standards, improving downstream CRM reliability and reporting accuracy.
